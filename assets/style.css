@@ -1,0 +1,61 @@
+body{
+    background-color: #F5F5FC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    overflow-x: hidden; 
+}
+
+
+nav{
+    background:transparent;
+    position:fixed;
+    height: 10vh;
+    width: 100%;
+    top: 0%;
+    z-index: 999;
+    transition: all .3s ease 0s;
+    padding: 22px 0;
+
+}
+
+
+.first-section{
+    height: 100vh;
+    padding: 0 !important;
+  margin-bottom: 20%;
+}
+
+.first-sectionimg{
+    margin-top: -149px;
+   width: 1151px;
+    position: absolute;
+    right: -110px;
+    z-index: -1;
+}
+
+.right-con {
+  
+   margin-left: 10%;
+   margin-top: 5%;
+   
+}
+
+.right-con img{
+width: 30%;
+}
+
+.shift{
+    
+    margin-left: 15% !important;
+    
+}
+
+.right-con h1 { 
+ 
+    font-size: 50px;
+    color: #223464;
+    text-transform: capitalize;
+   
+}
+
