@@ -68,6 +68,10 @@ width: 30%;
     margin-bottom: 24px;
 }
 
+.right-con p span{
+    font-weight: 600;
+
+}
 
 .search-container{
     padding-top: 5%;
@@ -218,6 +222,10 @@ width: 30%;
     border: 1px solid #16BAE7;
     border-radius: 30px !important;
     text-decoration: none;
+    transition: 0.2s ease all;
 }
 
-
+.projecturl:hover{
+    background: #16BAE7;
+    color: white;
+}
