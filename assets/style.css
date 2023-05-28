@@ -11,6 +11,12 @@ box-sizing: border-box;
 
 body{
     background-color: #F5F5FC;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
@@ -43,6 +49,10 @@ nav{
     justify-content: flex-end;
 }
 
+nav.scrolled {
+  background-color: #fff !important;
+  transition: background-color 500ms linear;
+}
 
 
 .cont-left a{
@@ -96,14 +106,48 @@ font-size: 14px !important;
     height: 100vh;
     padding: 0 !important;
   margin-bottom: 15%;
+  background: white;
 }
 
 .first-sectionimg{
-    margin-top: -149px;
+    /* margin-top: -149px;
    width: 1151px;
     position: absolute;
     right: -110px;
+    z-index: -1; */
+
+    width: 1051px;
+    position: absolute;
+    right: -27px;
     z-index: -1;
+}
+
+.left-con{
+    /* background: red; */
+     position: absolute;
+    right: -27px;
+    /* z-index: -1; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+    padding-top: 9%;
+
+
+}
+
+.profile-sectionimg{
+    border-radius: 15px;
+}
+
+
+.white-space{
+    background-color: #fdfcff;
+    width: 10000px;
+    height: 697px;
+    position: absolute;
+    z-index: -2;
+    right: -10000px;
 }
 
 .right-con {
@@ -208,13 +252,14 @@ outline: none;
 
 .second-section{
   margin-bottom: 2%;
-   left: 10%;
+   
 }
  
 
 
 .left{
-   
+    padding: 0px !important;
+
     padding-bottom: 5%;
 }
 
@@ -226,7 +271,9 @@ outline: none;
     border: none;
     box-shadow: 0 15px 30px 0 rgba(48, 54, 77, 0.1);
     border-radius: 6px;
-    margin: 3%;
+  width: 45% !important;
+    margin: 2%;
+   
     margin-top: 0%;
     margin-bottom: 50px;
     height: 90vh;
@@ -304,6 +351,7 @@ outline: none;
 
 .right{
     padding:0% !important;
+ 
 }
 
 .card-right{
@@ -415,6 +463,34 @@ font-weight: bold;
     color: #223464;
     text-transform: capitalize;
 }
+
+
+.turn{
+    margin: 0 auto !important;
+    padding-top:3% ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.turn p{
+    color: #223464;
+    font-size: 16px;
+    font-weight: 600;
+   text-transform: lowercase;
+   margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .foot{
        
